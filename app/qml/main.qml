@@ -29,6 +29,8 @@ ApplicationWindow {
     width: 1024
     height: 768
 
+    flags: Qt.FramelessWindowHint
+
     // Save window properties automatically
     onXChanged: appSettings.x = x
     onYChanged: appSettings.y = y
